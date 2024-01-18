@@ -1,0 +1,64 @@
+body {
+    font-family: Roboto;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.list {
+    list-style: none;
+    padding: 0;
+}
+.link {
+    text-decoration: none;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.square-item {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+.square-list {
+    position: relative;
+    height: 500px;
+    width: 500px;
+}
+.square-item:nth-child(1) {
+ background-color: lightcoral;
+}
+.square-item:nth-child(2) {
+    background-color: lightskyblue;
+    top: 60px;
+    left: 60px;
+    z-index: 1;
+}
+.square-item:nth-child(3) {
+    background-color: lightgreen;
+    top: 120px;
+    left: 120px;
+}
